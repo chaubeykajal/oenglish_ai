@@ -1,17 +1,9 @@
-import 'package:english_ai/responsive/responsive_layout.dart';
+
 import 'package:english_ai/splash.dart';
 import 'package:english_ai/theme/themeProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
-
-import 'mainscreens/desktop.dart';
-import 'mainscreens/mobile.dart';
-import 'mainscreens/tablet.dart';
-
-
-
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
